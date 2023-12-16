@@ -1,20 +1,20 @@
-port java.util.Scanner;
+import java.util.Scanner;
 
 class BankAccount {
 	
 	String name;
 	String userName;
 	String password;
-	String accountNo;
+	String accNo;
 	float balance = 100000f;
 	int transactions = 0;
 	String transactionHistory = "";
 	
-	// BankAccount(String name, String userName, String password, String accountNo) {
+	// BankAccount(String name, String userName, String password, String accNo) {
 	// this.name = name;
 	// this.userName = userName;
 	// this.password = password;
-	// this.accountNo = accountNo;
+	// this.accNo = accNo;
 	// }
 	
 	public void register() {
@@ -26,7 +26,7 @@ class BankAccount {
 		System.out.print("\nEnter Your Password - ");
 		this.password = sc.nextLine();
 		System.out.print("\nEnter Your Account Number - ");
-		this.accountNo = sc.nextLine();
+		this.accNo = sc.nextLine();
 		System.out.println("\nRegistration completed..kindly login");
 	}
 	
