@@ -12,3 +12,4 @@ The project allows to perform following operations:
 5.Quit
 
 #java #development #intern #github #oasisinfobyte
+video link - https://www.linkedin.com/posts/gorli-lakshmi-sai-amalodbhavi-039ba0236_task2-oasisinfobyte-activity-7143667693466890240-eNsn?utm_source=share&utm_medium=member_android
